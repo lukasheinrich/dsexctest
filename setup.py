@@ -12,7 +12,7 @@ setup(
     package_dir={"": "src"},
     install_requires=['pandas',
                       'numpy',
-                      'matplotlib'
+                      'matplotlib',
                       'pyarrow',                     
                       ],
 
