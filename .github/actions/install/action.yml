@@ -1,0 +1,10 @@
+name: 'Install your_repo_name'
+description: 'Installs your_repo_name package'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install package
+      run: |
+        pip install .
+      shell: bash
