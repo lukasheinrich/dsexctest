@@ -10,9 +10,10 @@ setup(
     license='BSD 2-clause',
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    install_requires=['pandas',
+    install_requires=['pandas>2.0',
                       'numpy',
-                      'matplotlib'                     
+                      'matplotlib',
+                      'pyarrow',                     
                       ],
 
     classifiers=[
